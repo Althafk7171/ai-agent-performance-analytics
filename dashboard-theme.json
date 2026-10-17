@@ -1,0 +1,25 @@
+{
+  "name": "AI Agent Analytics - Portfolio",
+  "dataColors": ["#2563EB", "#3730A3", "#0D9488", "#D97706", "#64748B", "#0891B2"],
+  "background": "#FFFFFF",
+  "foreground": "#172B4D",
+  "tableAccent": "#2563EB",
+  "textClasses": {
+    "callout": {"fontFace": "Segoe UI", "fontSize": 32, "color": "#172B4D"},
+    "title": {"fontFace": "Segoe UI", "fontSize": 16, "color": "#172B4D"},
+    "header": {"fontFace": "Segoe UI", "fontSize": 14, "color": "#172B4D"},
+    "label": {"fontFace": "Segoe UI", "fontSize": 12, "color": "#334155"}
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{"color": {"solid": {"color": "#FFFFFF"}}, "transparency": 0}]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{"color": {"solid": {"color": "#F3F6FA"}}, "transparency": 0}]
+      }
+    }
+  }
+}

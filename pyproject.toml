@@ -1,0 +1,9 @@
+[project]
+name = "ai-agent-performance-analytics"
+version = "0.1.0"
+description = "Reproducible public benchmark ingestion for a portfolio analytics project"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.ruff]
+line-length = 100

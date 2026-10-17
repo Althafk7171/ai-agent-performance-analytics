@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "manifest": "C:\\Users\\rumai\\Downloads\\AI agents performace analysis\\ai-agent-analytics\\data\\raw\\20261006T072324670711Z\\manifest.json",
+  "row_counts": {
+    "benchmark_results": 195,
+    "task_runs": 24497,
+    "task_reliability": 100
+  },
+  "task_runs_by_source": {
+    "swe_leaderboards": 23897,
+    "tau_sonnet_airline": 400,
+    "tau_gpt4o_airline": 200
+  },
+  "task_runs_with_agent_cost": 23897,
+  "task_runs_with_latency": 0,
+  "results_with_warnings": 2,
+  "simulated_rows": 0,
+  "checks": {
+    "raw_checksums": "passed",
+    "unique_record_ids": "passed",
+    "numeric_ranges": "passed",
+    "simulation_flag": "passed"
+  },
+  "tau_trial_count_distribution": {
+    "4": 50,
+    "8": 50
+  }
+}

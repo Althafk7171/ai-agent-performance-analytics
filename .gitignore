@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+discovery/
+data/processed/replays/
+~$*
+AI_Agent_Performance_Dashboard.pbix
+image/

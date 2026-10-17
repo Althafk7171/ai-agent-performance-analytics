@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "id": "swe_leaderboards",
+      "adapter": "swe",
+      "repository": "SWE-bench/swe-bench.github.io",
+      "revision": "193160a463a435d05cf44a1fa9dc5eac832113c3",
+      "path": "data/leaderboards.json",
+      "variants": ["Verified", "Multilingual"]
+    },
+    {
+      "id": "tau_gpt4o_airline",
+      "adapter": "tau",
+      "repository": "sierra-research/tau-bench",
+      "revision": "59a200c6d575d595120f1cb70fea53cef0632f6b",
+      "path": "historical_trajectories/gpt-4o-airline.json",
+      "variant": "historical-airline",
+      "agent_name": "tool-calling",
+      "model_name": "gpt-4o (upstream filename)"
+    },
+    {
+      "id": "tau_sonnet_airline",
+      "adapter": "tau",
+      "repository": "sierra-research/tau-bench",
+      "revision": "59a200c6d575d595120f1cb70fea53cef0632f6b",
+      "path": "historical_trajectories/sonnet-35-new-airline.json",
+      "variant": "historical-airline",
+      "agent_name": "tool-calling",
+      "model_name": "sonnet-35-new (upstream filename)"
+    }
+  ]
+}
